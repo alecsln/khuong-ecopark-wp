@@ -20,19 +20,19 @@
 <div id="back-top"><a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
 
 
-<div style="display: none;width:100%;max-width:410px;padding: 20px;border-radius: 4px" id="popup_baogia" class="form-kgd animated-modal">
+<!--<div style="display: none;width:100%;max-width:410px;padding: 20px;border-radius: 4px" id="popup_baogia" class="form-kgd animated-modal">
     <h2 class="mb-3">Tải tài liệu, báo giá và thông tin chi tết chung cư Ecopark Sky Oasis</h2>
     <h4>Mặt bằng, chính sách, bảng giá tất cả chỉ trong một lần tải</h4>
-    <?php echo do_shortcode('[contact-form-7 id="409" title="Tải tài liệu báo giá"]'); ?>
-</div>
+    <?php /*echo do_shortcode('[contact-form-7 id="409" title="Tải tài liệu báo giá"]');*/ ?>
+</div>-->
 
-<div class="odder_dich_vu jas-sale-pop" id="button">
+<!--<div class="odder_dich_vu jas-sale-pop" id="button">
      <div class="list_order"></div>
-</div>
+</div>-->
 
 <script type="text/javascript">
-    /////////
-    jQuery(document).ready(function(){
+    ///////// show alert: downloaded price list
+    /*jQuery(document).ready(function(){
         setInterval(function(){
            jQuery.ajax({
             type: "POST",
@@ -45,7 +45,7 @@
             },                   
           });
         }, 10000);
-    });
+    });*/
 
 </script>
 
@@ -55,7 +55,7 @@
 
 
 <script type="text/javascript">
-	 (function($) {
+	 /*(function($) {
         setTimeout(function() {
   $.fancybox.open({
     type : 'inline',
@@ -146,7 +146,7 @@ $(window).scroll(function () {
         }
     }
 });
-    })(jQuery);
+    })(jQuery);*/
 
 </script>
 <?php wp_footer(); ?>
