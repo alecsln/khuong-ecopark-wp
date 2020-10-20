@@ -447,7 +447,7 @@ div.wpcf7 .ajax-loader{position:absolute}
 }
 .header_main{
     height: 100px;
-    background: #2e3c2f;
+    background: #045d2d;
     -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -469,7 +469,7 @@ div.wpcf7 .ajax-loader{position:absolute}
 }
 .header_menu .menu_main >li a{
     font-size: 13px;
-    color: #a1b1bc;
+    color: #fff;
     text-transform: uppercase;
     display: block;
 }
@@ -503,6 +503,7 @@ div.wpcf7 .ajax-loader{position:absolute}
     padding: 0 14px;
     border-bottom: 1px solid #ecf0f1;
     border-left: 1px solid #ecf0f1;
+	color: #000;
     float: none;
 }
 
