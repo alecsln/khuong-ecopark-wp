@@ -474,7 +474,7 @@ div.wpcf7 .ajax-loader{position:absolute}
     display: block;
 }
 .header_menu .menu_main >li >a{
-    font-size: 14px;
+    font-size: 18px;
     line-height: 95px;
     margin: 0 11px;
     border-top: 5px solid #ffffff;
@@ -515,7 +515,7 @@ div.wpcf7 .ajax-loader{position:absolute}
     background: #ecf0f1;
 }
 .header_menu .menu_main >li.menu-item-has-children > a:after{
-    font-size: 16px;
+    font-size: 18px;
     font-family: FontAwesome;padding-left: 5px;
     content: "\f107";
     color: #a1b1bc;
