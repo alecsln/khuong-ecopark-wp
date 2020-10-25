@@ -55,8 +55,8 @@
 
 
 <script type="text/javascript">
-	 /*(function($) {
-        setTimeout(function() {
+	 (function($) {
+        /*setTimeout(function() {
   $.fancybox.open({
     type : 'inline',
     src  : '#popup_baogia',
@@ -67,7 +67,7 @@
     },
 
   });
-}, 1000); 
+}, 1000); */
 
     setTimeout( function() {$.fancybox.close(); },100000); 
          $('#touch-menu').click(function () { $(this).stop(0).addClass('opened'); $('#sticker').addClass('opened'); });
@@ -146,7 +146,7 @@ $(window).scroll(function () {
         }
     }
 });
-    })(jQuery);*/
+    })(jQuery);
 
 </script>
 <?php wp_footer(); ?>
